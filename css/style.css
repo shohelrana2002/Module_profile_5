@@ -9,6 +9,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
 .text-primary {
   color: #fd6e0a;
@@ -39,4 +40,20 @@ nav li {
 nav a {
   text-decoration: none;
   color: #474747;
+}
+
+/* hedear startL */
+.header {
+  background: #fff8f3;
+}
+
+/* banner */
+.banner {
+  align-items: center;
+  display: flex;
+  padding: 30px 30p-x 30px 150px;
+}
+.banner .porofile-pic {
+  width: 500px;
+  /* height: 676px; */
 }
