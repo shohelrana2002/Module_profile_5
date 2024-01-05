@@ -1,7 +1,11 @@
 /* nav styleL */
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap");
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -45,15 +49,68 @@ nav a {
 /* hedear startL */
 .header {
   background: #fff8f3;
+  background-repeat: no-repeat;
+  background-image: url("../images/header_bg.png");
+  background-position: bottom right;
 }
 
 /* banner */
 .banner {
   align-items: center;
   display: flex;
-  padding: 30px 30p-x 30px 150px;
+  padding: 30px 30px 0px 150px;
+  justify-content: space-between;
 }
 .banner .porofile-pic {
   width: 500px;
   /* height: 676px; */
+}
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+  /* font-weight: 600; */
+}
+.section-desception {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  /* font-weight: 400;
+  line-height: 30px; 166.667% */
+}
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.banner-title {
+  font-size: 85px;
+  margin-top: 5px;
+  color: #181818;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.banner-descrption {
+  max-width: 550px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  color: #757575;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.banner-content {
+  max-width: 550px;
+}
+
+/* main section */
+
+/* aboout sectionL */
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 0;
 }
