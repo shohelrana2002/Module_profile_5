@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Work Sans", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,700;1,800&display=swap");
+.header-container {
+  padding-top: 220px;
+  padding-bottom: 400px;
+  background-image: url("../images/banner/banner1.png");
+  position: left bottom;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.header-right {
+  text-align: right;
+}
+.header-title {
+  color: #151414;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 65px;
+  font-weight: 700;
+  padding-left: 705px;
+  padding-right: 100px;
+}
+.header-content {
+  color: #444343;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 16px;
+  margin-top: 23px;
+  padding-left: 850px;
+  padding-right: 100px;
+  line-height: 26px; /* 162.5% */
+}
+
+.primary-btn {
+  margin-right: 100px;
+  border-radius: 5px;
+  background: #f15b22;
+  border: none;
+  color: #fff;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 20px;
+  padding: 10px 15px;
+  margin-top: 20px;
+}
+
+/* main content satrt  */
+.main_container {
+  background-image: url("../images/person.png");
+  background-repeat: no-repeat;
+}
+
+ol input,
+#p {
+  display: inline;
+}
+
+.main_right {
+  padding-top: 300px;
+  padding-bottom: 300px;
+  padding-left: 700px;
+  padding-right: 300px;
+  /* text-align: center;
+  widows: 20%; */
+}
+.main_title {
+  color: #151414;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+  word-spacing: 10px;
+  margin-bottom: 15px;
+}
+.main_content {
+  color: #444343;
+  font-family: Work Sans;
+  font-size: 16px;
+  padding-bottom: 10px;
+  line-height: 26px; /* 162.5% */
+}
+#P {
+  color: #444343;
+  padding: 15px;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+/* section-pln start */
+
+.center {
+  color: #151414;
+  font-family: Work Sans;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+
+.section-pln {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 100px;
+  gap: 10px;
+  text-align: center;
+}
+.about-info img {
+  margin: 10px;
+}
+.info-title {
+  color: #151414;
+  font-family: Work Sans;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 15px;
+}
+.info-description {
+  color: #737272;
+  font-family: Work Sans;
+  font-size: 25px;
+  font-weight: 500;
+  padding-bottom: 100px;
+}
+
+/* call-area start */
+.bg {
+  margin-left: 105px;
+  position: absolute;
+  padding-top: 40px;
+  /* padding-top: 400px; */
+  background-position: bottom right;
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+}
+.call-area {
+  position: relative;
+  /* background: linear-gradient(40deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%); */
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 300px;
+  background-image: url("../images/watch.png");
+  border-radius: 8px;
+  margin-bottom: 120px;
+
+  /* background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%); */
+}
+.mindset {
+  position: relative;
+  /* background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%); */
+  padding-left: 150px;
+  padding-top: 10px;
+  margin-top: 50px;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.contact-btn {
+  margin-left: 150px;
+  margin-bottom: 30px;
+  width: 160px;
+  height: 64px;
+  flex-shrink: 0;
+  border: 0;
+  border-radius: 5px;
+  background: #fff;
+}
+
+/* footer start  */
+.footer-header {
+  background-color: #151414;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left {
+  color: #fff;
+  padding: 150px 200px;
+}
+.footer_right {
+  color: #fff;
+  padding: 150px 200px;
+}
+.footer-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  padding: 18px 0;
+}
+.footer-paragrph {
+  color: #fff;
+  font-size: 16px;
+  padding-bottom: 30px;
+  line-height: 26px; /* 162.5% */
+}
+
+.email {
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  line-height: 26px; /* 162.5% */
+}
+
+.social-img {
+  padding: 20px 10px;
+  cursor: pointer;
+}
+.input {
+  border-radius: 8px;
+  border: 1px solid #fff;
+  border: none;
+}
+input[type="email"] {
+  color: #000;
+  padding: 21px 50px;
+  font-size: 18px;
+  width: 100%;
+}
