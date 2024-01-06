@@ -50,8 +50,9 @@ nav a {
 .header {
   background: #fff8f3;
   background-repeat: no-repeat;
-  background-image: url("../images/header_bg.png");
-  background-position: bottom right;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+  background-position: bottom right, top left;
 }
 
 /* banner */
@@ -63,7 +64,7 @@ nav a {
 }
 .banner .porofile-pic {
   width: 500px;
-  /* height: 676px; */
+  /* height: 700px; */
 }
 .banner-greeting {
   font-size: 45px;
@@ -187,10 +188,35 @@ main {
   margin-top: 50px;
 }
 
-/* footer stye */
+/* footer stye  */
+.section-description {
+  text-align: center;
+  justify-content: center;
+}
+
+.social-links a {
+  margin-right: 25px;
+}
 footer {
+  gap: 100px;
   display: flex;
   margin-top: 100px;
   background: #fff8f3;
   padding: 130px 200px;
+}
+
+.footer-column {
+  width: 50%;
+}
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  background: #fff;
+  border: 0;
+  width: 100%;
 }
