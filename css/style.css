@@ -177,11 +177,20 @@ main {
 }
 .resume-container hr {
   margin: 30px 0;
+  background: #d1d1d1;
 }
 .section-title {
-  margin-bottom: 150px;
+  margin: 15px;
 }
 .download-cv {
   text-align: center;
   margin-top: 50px;
+}
+
+/* footer stye */
+footer {
+  display: flex;
+  margin-top: 100px;
+  background: #fff8f3;
+  padding: 130px 200px;
 }
